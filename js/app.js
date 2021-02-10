@@ -2,26 +2,31 @@
 'use strict';
 
 
-let userName = prompt("What\'s Your Name ?? ") 
+let userName = prompt('What\'s Your Name ?? ') ;
 
-      alert("Hi  "+ userName + " ,would you please answer these qustionse about Reem with Y/N:) ");
+
+      alert('Hi  '+ userName + ' ,would you please answer these qustionse about Reem with Y/N:) ');
      let counter = 0;
-    let firQ = prompt("Is Reem 27 years old ??")
+// eslint-disable-next-line no-unused-vars
+let firQ = prompt('Is Reem 27 years old ??');
+     function question1(){
+ 
     
       if(firQ.toLowerCase() === "y" || firQ.toLowerCase() === "yes")
       {
-        alert("yes you are correct");
-        console.log("For the first Q you are correct");
+        alert('yes you are correct');
+        console.log('For the first Q you are correct');
         counter = counter+1;
       }
-      else if (firQ.toLowerCase() === "n" || firQ.toLowerCase() === "no")
+      else if (firQ.toLowerCase() === 'n' || firQ.toLowerCase() === 'no')
       {
-        alert("No, thats not correct !");
-        console.log("For the first Q you are not correct");
-      } else {
-        alert("you entered invalid answer !");
-      }
-
+        alert('No, thats not correct !');
+        console.log('For the first Q you are not correct');
+  } else {
+    alert('you entered invalid answer !');
+  }
+}
+question1(firQ);
     let secQ = prompt("Did Reem ever want to Turky ??")
       
       if(secQ.toLowerCase() === "y" || secQ.toLowerCase() === "yes")
@@ -149,7 +154,7 @@ let userName = prompt("What\'s Your Name ?? ")
       }
       if (x >= 6 )
       {
-        alert("you attmets is over, the correct answar is red , black , yallow , blue");
+  alert('you attmets is over, the correct answar is red , black , yallow , blue');
       }  
       else if (x< 6){
         alert ("nice !")
