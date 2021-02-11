@@ -28,7 +28,7 @@ let firQ = prompt('Is Reem 27 years old ??');
 }
 question1(firQ);
     let secQ = prompt("Did Reem ever want to Turky ??")
-      
+    function question2(){
       if(secQ.toLowerCase() === "y" || secQ.toLowerCase() === "yes")
       {
         alert("yes you are correct");
@@ -43,7 +43,10 @@ question1(firQ);
       }else {
         alert("you entered invalid answer !");
       }
+    }
+       question2();
 
+       function question3(){ 
     let thirQ = prompt("Does Reem like moveis ??")
       if(thirQ.toLowerCase() === "y" || thirQ.toLowerCase() === "yes")
       {
@@ -58,7 +61,11 @@ question1(firQ);
         console.log("For the third Q you are not correct");
       }else {
         alert("you entered invalid answer !");
-      }
+      }}
+      question3();
+
+      function question4(){
+ 
     let fortQ = prompt("Does Reem like Shishbarak ??")
       if(fortQ.toLowerCase() === "y" || fortQ.toLowerCase() === "yes")
       {
@@ -73,7 +80,10 @@ question1(firQ);
       }else {
         alert("you entered invalid answer !");
       }
+    }
+    question4();
 
+    function question5(){
       let fiftQ = prompt("Does Reem's favorite move is The Shining ??")
       if(fiftQ.toLowerCase() === "y" || fiftQ.toLowerCase() === "yes")
       {
@@ -88,17 +98,17 @@ question1(firQ);
         console.log("For the fifth Q you are not correct");
       }else {
         alert("you entered invalid answer !");
-      }
-
-      
-
+      }}
+      question5();
+           
+    function question6(){
     let i = 0       
     for (i = 0 ; i < 4 ; i++)
      { let sixQ = prompt("Guss reem's luky number ??")
       let gussNum = parseInt (sixQ);
       if(gussNum == 7 )
       {
-        alert("yes you are coorect");
+        alert("yes you are correct");
         counter = counter+1;
         console.log("For the sixth Q you are correct");
 
@@ -127,39 +137,43 @@ question1(firQ);
       else if (i< 4){
         alert ("nice !")
       }
-    let coloArr = ['red','black','yallow','blue'];
+    }
+    question6();
+    
+    function question7(){
+      let coloArr = ['red','black','yallow','blue'];
       let x = 0       
-     for (let j = 0 ; j < coloArr.length ; j++ )
-     {  
-       for (x = 0 ; x < 6 ; x++){
-        let seveQ = prompt("Guss reem's fav coloer ??") 
-         
-         if(seveQ == 'red' || seveQ == 'black' || seveQ == 'yallow' || seveQ == 'blue' )
-      {
-        alert("yes you are coorect");
-        console.log("For the seventh Q you are correct");
-        counter = counter+1;
-
-         break
-      }
-      
-       else 
-       {
-        alert("invaled input");
-
-       }
+      let seveQ = prompt("Guss reem's fav coloer ??") 
+      let flage = false;
+    for (x = 1 ; x <= 6 ; x++){
+      for (let j = 0 ; j < coloArr.length ; j++ ){  
        
+        if(coloArr[j]===seveQ){
+            alert("yes you are correct");
+            console.log("For the seventh Q you are correct");
+            counter = counter+1;
+            flage =true;
+            break;
+        }
+        
       }
-      break
-      }
+    if (flage=== false){
+      alert('wrong answar try again')
+    seveQ = prompt("Guss reem's fav coloer ??")
+    
+    }
+    else{
+      break;
+    }
+        }
       if (x >= 6 )
-      {
-  alert('you attmets is over, the correct answar is red , black , yallow , blue');
-      }  
-      else if (x< 6){
-        alert ("nice !")
+    {
+      alert('you attmets is over, the correct answar is red , black , yallow , blue');
+    }  
       }
-      alert("you correct answar is "+ counter);
+        question7();
+
+   alert("you totle correct answares is "+ counter);
 
     
 
