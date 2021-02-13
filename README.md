@@ -1,4 +1,3 @@
-permalink: /index.html
 
 ## I was the Driver on : 
 [driver](https://github.com/abu-al3ees/code201/pull/1)
