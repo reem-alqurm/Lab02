@@ -15,13 +15,13 @@ let firQ = prompt('Is Reem 27 years old ??');
       if(firQ.toLowerCase() === "y" || firQ.toLowerCase() === "yes")
       {
         alert('yes you are correct');
-        console.log('For the first Q you are correct');
+      
         counter = counter+1;
       }
       else if (firQ.toLowerCase() === 'n' || firQ.toLowerCase() === 'no')
       {
         alert('No, thats not correct !');
-        console.log('For the first Q you are not correct');
+       
   } else {
     alert('you entered invalid answer !');
   }
@@ -32,14 +32,14 @@ question1(firQ);
       if(secQ.toLowerCase() === "y" || secQ.toLowerCase() === "yes")
       {
         alert("yes you are correct");
-        console.log("For the Secound Q you are correct")
+
         counter = counter+1;
 
       }
       else if (secQ.toLowerCase() === "n" || secQ.toLowerCase() === "no")
       {
         alert("No, thats not correct !");
-       console.log("For the Secound Q you are not correct")
+     
       }else {
         alert("you entered invalid answer !");
       }
@@ -51,14 +51,14 @@ question1(firQ);
       if(thirQ.toLowerCase() === "y" || thirQ.toLowerCase() === "yes")
       {
         alert("yes you are correct");
-        console.log("For the third Q you are correct");
+       
         counter = counter+1;
 
       }
       else if (thirQ.toLowerCase() === "n" || thirQ.toLowerCase() === "no")
       {
         alert("No, thats not correct !");
-        console.log("For the third Q you are not correct");
+     
       }else {
         alert("you entered invalid answer !");
       }}
@@ -70,12 +70,11 @@ question1(firQ);
       if(fortQ.toLowerCase() === "y" || fortQ.toLowerCase() === "yes")
       {
         alert("No, thats not correct !");
-        console.log("For the forth Q you are not correct");
+       
       }
       else if (fortQ.toLowerCase() === "n" || fortQ.toLowerCase() === "no")
       {
         alert("yes you are correct");
-        console.log("For the forth Q you are correct");
         counter = counter+1;
       }else {
         alert("you entered invalid answer !");
@@ -88,14 +87,12 @@ question1(firQ);
       if(fiftQ.toLowerCase() === "y" || fiftQ.toLowerCase() === "yes")
       {
         alert("yes you are correct");
-        console.log("For the fifth Q you are correct");
         counter = counter+1;
 
       }
       else if (fiftQ.toLowerCase() === "n" || fiftQ.toLowerCase() === "no")
       {
         alert("No, thats not correct !");
-        console.log("For the fifth Q you are not correct");
       }else {
         alert("you entered invalid answer !");
       }}
@@ -110,7 +107,6 @@ question1(firQ);
       {
         alert("yes you are correct");
         counter = counter+1;
-        console.log("For the sixth Q you are correct");
 
          break
       }
@@ -150,7 +146,6 @@ question1(firQ);
        
         if(coloArr[j]===seveQ){
             alert("yes you are correct");
-            console.log("For the seventh Q you are correct");
             counter = counter+1;
             flage =true;
             break;
