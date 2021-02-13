@@ -2,15 +2,54 @@ img {
     float: left;
     width: 100px;
     height: 100px;
+    margin: 5%;
 }
 h1 {
     background-color: #D1FFBA;
+    margin: 5%;
 }
 main {
     background-color: #FFEBD4;
+    margin: 5%;
 }
 footer p 
 {
-    color:#337187
+    color:#337187;
+
+    margin: 5%;
     
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #33CCCC;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111111;
+  }
+
+div {
+    font-weight: bold;
+    background-color: #E0C2F5;
+    margin: 5%;
+
+}
+
+ul {
+    list-style-type: circle;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 5%;
+  }
